@@ -5,4 +5,3 @@ function login() {
 }
 
 export default login;
-//test
