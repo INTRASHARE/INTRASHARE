@@ -1,12 +1,26 @@
+body {
+    margin: 0;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Poppins', sans-serif;     
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../components/common/login_bg_2.jpg') no-repeat ;
+    background-size: cover;
+    background-position: center;
+  }
+
 .wrapper{
     display: flex;
     justify-content: space-between;
-    background: rgb(27, 17, 36 );
+    background: rgba(4, 3, 6, 0.945 );
     background: transparent;
-    background-image: url('../components/common/login_bg_2.jpg');
     background-size: cover;
     background-position: center;
-    backdrop-filter: blur(30px) ;
+    backdrop-filter: blur(20px) ;
     width: 700px;
     color: white;
     padding: 30px;
@@ -95,4 +109,12 @@
     font-weight: 700;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     background-color: rgb(204, 119, 22);
+}
+
+.logo span{
+    background : rgb(204, 119, 22);
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10%;
 }

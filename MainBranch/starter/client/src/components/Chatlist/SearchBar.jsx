@@ -6,10 +6,10 @@ export default function SearchBar() {
   const [{ contactSearch }, dispatch] = useStateProvider();
 
   return (
-    <div className="bg-search-input-container-background flex py-3 pl-5 items-center gap-3 h-14">
-      <div className="bg-panel-header-background flex items-center gap-5 px-3 py-1 rounded-lg flex-grow">
+    <div className=" searchBar bg-search-input-container-background flex py-3 pl-5 items-center gap-3 h-14">
+      <div className="bg-searchBar-Bg flex items-center gap-5 px-3 py-1 rounded-lg flex-grow">
         <div>
-          <BiSearchAlt2 className="text-panel-header-icon cursor-pointer text-l" />
+          <BiSearchAlt2 className="text-searchbar-text cursor-pointer text-l" />
         </div>
         <div className="">
           <input
@@ -27,7 +27,7 @@ export default function SearchBar() {
         </div>
       </div>
       <div className="pr-5 pl-3">
-        <BiFilter className="text-panel-header-icon cursor-pointer text-xl " />
+        <BiFilter className="text-searchbar-text cursor-pointer text-xl " />
       </div>
     </div>
   );

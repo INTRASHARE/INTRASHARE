@@ -94,13 +94,7 @@ export default function login() {
           onChange={(e) => setPassword(e.target.value)} required />
         <FaLock className="icon"/>
     </div>
-    <div className="remember-forgot">
-        <label>
-            <input type="checkbox"/>
-            Remember me
-        </label>
-        <a href="#">Forgot password ? </a>
-    </div>
+    
     <button type="submit" onClick={handleLogin}>LOGIN</button>
     </form>
 </div>

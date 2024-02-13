@@ -52,7 +52,7 @@ export default function ChatLIstItem({ data, isContactPage = false }) {
               <span
                 className={`${
                   !data.totalUnreadMessages > 0
-                    ? "text-secondary"
+                    ? "text-white"
                     : "text-icon-green"
                 } text-sm`}
               >
@@ -63,7 +63,7 @@ export default function ChatLIstItem({ data, isContactPage = false }) {
         </div>
         <div className="flex border-b border-conversation-border pb-2 pt-1 pr-2">
           <div className="flex justify-between w-full">
-            <span className="text-secondary line-clamp-1 text-sm ">
+            <span className="text-white line-clamp-1 text-sm ">
               {isContactPage ? (
                 data?.about || "\u00A0"
               ) : (
